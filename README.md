@@ -487,7 +487,7 @@ INÍCIO
             INCLUIR 'salvar-cliente.php'
         // ... outros casos para Marca, Modelo, Venda ...
         CASO PADRÃO:
-            ESCREVA "Seja bem vindo ao sistema da berg lindo"
+            ESCREVA "Seja bem vindo ao sistema CAR-MA"
     FIM ESCOLHA
 FIM
 ```
