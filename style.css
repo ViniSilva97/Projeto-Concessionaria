@@ -1,0 +1,51 @@
+body {
+    color: white;
+    background-image: url('img/capa.jpg.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+
+
+#titulo {
+    text-align: center;
+    font-size: 58px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin-top: 50px;
+    text-shadow: 
+      0 0 7px #00aaffea,  
+        0 0 15px #00aaffd8,
+        0 0 30px #00aaffce,  
+        /* Camadas de Sombra Externa (Preto/Muito Escuro) */
+        0 0 40px #000000,  
+        0 0 70px #000000,
+        0 0 80px #000000;
+}
+
+/* Estilo para as células de cabeçalho (Labels) da tabela */
+.table th {
+    /* 💥 Fundo Semi-transparente: RGB Preto com 70% de Opacidade */
+    background-color: rgba(0, 0, 0, 0.9); 
+    
+    /* Cor do texto: Branco para contraste */
+    color: white; 
+    
+    /* Negrito e um pouco maior */
+    font-weight: bold;
+    font-size: 1.1em;
+
+    /* Sombra suave no texto para melhorar a legibilidade sobre o fundo */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+
+    /* Arredondamento nas bordas (opcional, para estética) */
+    border-radius: 5px;
+}
+
+/* Garante que o texto nas células comuns (<td>) também seja branco e legível */
+.table td {
+    background-color: rgba(201, 226, 255, 0.8); /* Fundo muito levemente branco */
+    color: rgb(0, 0, 0); 
+    font-weight: bold;
+}
